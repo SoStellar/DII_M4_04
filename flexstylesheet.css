@@ -32,10 +32,10 @@
     flex-basis: 200px;
 }
 .d2{
-   order: 3;
+
    flex-basis: 100px;
 }
 .d3{
-    order: 0;
+    order: 2;
     flex-basis: 100px;
 }
