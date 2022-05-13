@@ -1,19 +1,22 @@
-div{
-    border: 1px solid black;
+body{
+    background-color: #F9D923;
 }
 .flex-contianer{
     display: flex;
     flex-flow: row;
-    background-color: lightgray;
+    background-color: #EB5353;
     justify-content: space-between;
 }
 .icons{
     display: flex;
     flex-flow: row;
-    background-color: lightgray;
+    background-color: wheat;
+    margin: 10px;
+    padding: 10px;
+    color: #187498;
 }
 .flex-contianer-1{
-    justify-content: center;
+    justify-content: stretch;
 }
 .content{
     display: flex;
@@ -26,8 +29,21 @@ div{
     text-align: center;
 }
 .content>div{
-    margin: 10px;
-    padding: 70px;
     justify-content: space-evenly;
-    flex-grow: 10;
+    flex-grow: 3;
+}
+.logo{
+    margin: 10px;
+    padding: 10px;
+}
+.banner{
+    align-items: stretch;
+}
+img{
+    padding: 10px;
+    margin: 10px;
+}
+.icons div{
+    padding: 0 10px 0 10px;
+    margin: 0 10px 0 10px;
 }
