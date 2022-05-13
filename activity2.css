@@ -1,0 +1,33 @@
+div{
+    border: 1px solid black;
+}
+.flex-contianer{
+    display: flex;
+    flex-flow: row;
+    background-color: lightgray;
+    justify-content: space-between;
+}
+.icons{
+    display: flex;
+    flex-flow: row;
+    background-color: lightgray;
+}
+.flex-contianer-1{
+    justify-content: center;
+}
+.content{
+    display: flex;
+    flex-flow: row wrap;
+}
+.flex-contianer-1>div{
+    margin: 10px;
+    padding: 10px;
+    flex-basis: 2rem;
+    text-align: center;
+}
+.content>div{
+    margin: 10px;
+    padding: 70px;
+    justify-content: space-evenly;
+    flex-grow: 10;
+}
